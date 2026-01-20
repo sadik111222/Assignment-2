@@ -32,16 +32,17 @@
 
             <div class="py-[24px] px-[100px] mx-auto my-0 flex justify-between items-center">
 
+
                 <h3 class="text-6xl font-bold ">
 
-                    <span class="text-white">Tech</span> <span
-                        class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent ">Wave</span>
+                    <span class="text-white">Tech</span> <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent ">Wave</span>
 
                 </h3>
 
+
                 <div class=" text-white">
 
-                    <ul class="flex justify-between items-center gap-[42px]  shadow-x1">
+                    <ul class="hidden lg:flex justify-between items-center gap-[42px]  shadow-x1">
 
                         <li class="cursor-pointer">About</li>
                         <li class="cursor-pointer">Episodes</li>
@@ -50,10 +51,9 @@
                     </ul>
                 </div>
 
-                <button
-                    class=" text-white px-[20px] py-[17px] rounded-full font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:text-red-950 cursor-pointer">Subscribe
-                    <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
+                <button class="lg:hidden px-[20px]  py-[17px]"> <img src="./images/hamburger-menu.png" alt="menu-icon"></button>
+                <button class="hidden lg:block text-white px-[20px]  py-[17px] rounded-full font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:text-red-950 cursor-pointer">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+           </div>
 
 
         </nav>
@@ -385,7 +385,7 @@
         </h3>
 
 
-        <ul class="flex  items-center  justify-center gap-[70px] py-[36px]">
+        <ul class="flex flex-wrap items-center  justify-center gap-[70px] py-[36px]">
 
             <li class="flex gap-[8px]">
                 <img src="./images/spotify.png" alt="spotify">
