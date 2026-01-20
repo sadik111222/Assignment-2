@@ -3,3 +3,26 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+@media screen and (max-width:576px) {
+    .navbar{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .footer-bar{
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .choose-section{
+      padding-left: 40px;
+    }
+  
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+    .navbar{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+}
